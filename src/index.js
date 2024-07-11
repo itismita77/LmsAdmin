@@ -1,13 +1,9 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import reportWebVitals from './reportWebVitals'
-
 import { createStore } from 'redux'
-
 import { Provider } from 'react-redux'
-
 import rootReducer from './redux/reducers'
-
 import './assets/boxicons-2.0.7/css/boxicons.min.css'
 import './assets/css/grid.css'
 import './assets/css/theme.css'
@@ -19,7 +15,7 @@ const store = createStore(
   rootReducer
 )
 
-document.title = 'Tua CRM'
+document.title = 'ATIIT'
 
 ReactDOM.render(
   <Provider store={store}>
